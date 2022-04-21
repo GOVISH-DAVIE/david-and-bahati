@@ -1,27 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
 
-  <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-    Hello World, we are software developers!
-    <!--
+<body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    Hello Camper!
+  <h1 id="title">Survey form Test</h1>
+  <p id="description">this is the survey form</p>
 
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
 
-    - The freeCodeCamp Team
+  <form action="#" id="survey-form">
 
-    -->
-    <script  src="js/index.js"></script>
-  </body>
+    <label for="name" id="name-label"> Name</label>
+    <input type="text" required  id="name" placeholder=" Your Name">
+
+    
+    <label for="email" id="email-label"> Email</label>
+    <input type="email" id="email" required placeholder=" Your Email"> 
+
+
+    <label for="number" id="number-label"> Age</label>
+    <input type="number" id="number" min="3" max="30" placeholder="Your Age">
+
+    <input type="radio" name="recomendation" id="recomendation" value="google">
+    <input type="radio" name="recomendation" id="recomendation" value="friend">
+    <input type="radio" name="recomendation" id="recomendation" value="Facebook">
+    <input type="radio" name="recomendation" id="recomendation" value="others">
+
+
+    <select name="current-role" id="dropdown">
+      <option value="full">Full time</option>
+      <option value="part">Part time</option>
+    </select>
+
+    <input type="checkbox" name="front-end" value="front-end" id="front ">
+    <input type="checkbox" name="back-end" value="back-end" id="back ">
+
+    <select name="feature" id="feature">
+      <option value="full">Full time</option>
+      <option value="part">Part time</option>
+    </select>
+
+    <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+    <input type="submit" name="submit" id="submit">
+
+
+  </form>
+
+  <script src="js/index.js"></script>
+</body>
+
 </html>
