@@ -1,0 +1,73 @@
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(68, 203, 203);
+
+    h1{
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    #description{
+        font-style: italic;
+        text-transform: capitalize;
+        font-size: 18px;
+    }
+    form {
+        min-height: 90vh;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 7px 4px 23px -3px rgba(0, 0, 0, 0.82);
+        -webkit-box-shadow: 7px 4px 23px -3px rgba(0, 0, 0, 0.82);
+        -moz-box-shadow: 7px 4px 23px -3px rgba(0, 0, 0, 0.82);
+        border-radius: 20px;
+        background-color: teal;
+
+        label {
+            float: left;
+            font-weight: bolder;
+            font-size: larger;
+            width: 70%;
+            margin-bottom: 10px;
+        }
+
+        input {
+            border: 1px solid black;
+            height: 40px;
+            width: 70%;
+            border-radius: 5px;
+            margin-bottom: 30px;
+            display: inline-block;
+        }
+        select{
+            width: 70%;
+            height: 40px;
+            border-radius: 5px;
+
+        }
+        textarea{
+            height: 200px;
+            width: 70%;
+            border-radius: 10px;
+            margin-top: 20px;
+
+        }
+
+        input[type=submit]{
+            color: white !important     ;
+            width: 50%;
+            margin-top: 20px;
+            background-color: black;
+        }
+        #labFront{
+          display: inline-block;
+        }
+        
+    }
+}

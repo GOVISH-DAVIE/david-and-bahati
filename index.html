@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <title>Fork Me! FCC: Test Suite Template</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/app.css">
 </head>
 
 <body>
@@ -15,30 +16,36 @@
 
 
   <form action="#" id="survey-form">
-
+    <br><br>
     <label for="name" id="name-label"> Name</label>
-    <input type="text" required  id="name" placeholder=" Your Name">
+    <input type="text" required id="name" placeholder=" Your Name">
 
-    
+
     <label for="email" id="email-label"> Email</label>
-    <input type="email" id="email" required placeholder=" Your Email"> 
+    <input type="email" id="email" required placeholder=" Your Email">
 
 
     <label for="number" id="number-label"> Age</label>
     <input type="number" id="number" min="3" max="30" placeholder="Your Age">
 
     <input type="radio" name="recomendation" id="recomendation" value="google">
+    <p for="recomendation">Google</p>
     <input type="radio" name="recomendation" id="recomendation" value="friend">
+    <p for="recomendation">Friend</p>
     <input type="radio" name="recomendation" id="recomendation" value="Facebook">
+    <p for="recomendation">Facebook</p>
     <input type="radio" name="recomendation" id="recomendation" value="others">
+    <p for="recomendation">Others</p>
 
 
     <select name="current-role" id="dropdown">
       <option value="full">Full time</option>
       <option value="part">Part time</option>
     </select>
-
+    <br>
+    <label id="labFront" for="front"> Front End</label>
     <input type="checkbox" name="front-end" value="front-end" id="front ">
+    <label for="bak"> Back End</label>
     <input type="checkbox" name="back-end" value="back-end" id="back ">
 
     <select name="feature" id="feature">
@@ -46,7 +53,7 @@
       <option value="part">Part time</option>
     </select>
 
-    <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+    <textarea name="comments" id="comments" placeholder="Other comments"></textarea>
     <input type="submit" name="submit" id="submit">
 
 
